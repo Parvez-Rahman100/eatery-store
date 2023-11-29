@@ -1,5 +1,6 @@
 import React from "react";
 import Cartegories from "../Categories/Cartegories";
+import ChefService from "../ChefService/ChefService";
 import Hero from "../Hero/Hero";
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
     <div>
       <Hero />
       <Cartegories />
+      <ChefService />
     </div>
   );
 };
